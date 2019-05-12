@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/alice.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/alice.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="SINoALICE Character Sorter">
+  <meta name="og:description" content="A simple website for sorting SINoALICE characters in a formatted list.">
+  <meta name="og:image" content="https://i.imgur.com/XubUQq6.jpg">
+  <title>SINoALICE Character Sorter</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2019-05-11.js"></script>
+
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+        <img src="src/assets/defaultL.jpg" class="left sort image">
+
+        <div class="starting start button">SINoALICE Character Sorter<br><br>Click to Start!</div>
+        <div class="starting load button">Load <span></span></div>
+
+        <div class="loading button"><div></div><span>Loading...</span></div>
+
+        <div class="sorting tie button">Tie</div>
+        <div class="sorting undo button">Undo</div>
+        <div class="sorting save button">Save Progress</div>
+
+        <div class="finished save button">Generate Result URL</div>
+        <div class="finished getimg button">Generate Image</div>
+        <div class="finished list button">Generate Text List</div>
+
+        <img src="src/assets/defaultR.jpg" class="right sort image">
+
+        <div class="left sort text"><p></p></div>
+        <div class="right sort text"><p></p></div>
+    </div>
+
+    <div class="options"></div>
+    <div class="image selector">Display Images on Result: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+        <a href="https://github.com/execfera/charasort/">Original Source Code</a> |  <a class="clearsave">Clear Save Data</a> | <a href="https://twitter.com/chippyy_">Contact</a>
+
+        <br><br>
+        <p>Sorter for SINoALICE characters. Pick your filters, and hit the Start button.</p>
+        <p>Click on the character you like better from the two. Try not to use Tie as much as possible.</p>
+
+        <br><br>
+        <p>Keyboard controls during sorting:
+            <br>H/LeftArrow (pick left) L/RightArrow (pick right)
+            <br>J/DownArrow (undo)
+            <br>K/UpArrow (tie)
+            <br>S (save progress)</p>
+        <br>
+        <p>Before sorting: S/Enter (start sorting) L (load progress).
+        <p>1/2/3 always correspond to the first/second/third buttons.</p>
+
+        <br><br>
+        <p><a href="?IwVhHYDZIFigGcBmAnAHxjYTizceQ+A4A4kwis8y04+0sxhomiyt6j8r5kpokyrCBPNi36TR9GdX61uddpLEN2tOS1lK6MjsvW6VSrUYU9eVDYJtyhK-bsHNbT1hbXPzfTYa5r1R3dvKRsgvRcvRRFtH0Y3Vn9uaxovBPj4vRDOF01rOOChBXkSgSdpN0zsjQzImqSa-OcrVJKwsSqA4t5W8rrQxIlLevFzXtzZMIzB+XrarIDp9yqTYMKKfA58Wp9CIA" title="pino is the cutest">My Taste</a> > Shit > Your Taste</p>
+        <p>Images and translated job names were taken from <a href="https://sinoalice.game-db.tw/">here</a>.</p>
+        <p>Inspired by <a href="http://mainyan.sakura.ne.jp/thsort.html">this site</a>.
+        <br><br>
+
+    </div>
+</div>
+</body>
+
+</html>
