@@ -330,11 +330,6 @@ dataSet[dataSetVersion].characterData = [
     img: "NmdcYKB.png",
     opts: { series: ["snow"], stage: ["mins"] }
   },
-    {
-        name: "Snow White/Lustful Scorpion Cleric",
-        img: "ZrCFf21.png",
-        opts: { series: ["snow"], stage: ["cleric"], sin:["lust"], sinCheck: true }
-    },
 
 
     //       Red Riding Hood
@@ -932,7 +927,7 @@ dataSet[dataSetVersion].characterData = [
     {
         name: "Nutcracker/Breaker",
         img: "1Q7yPo4.png",
-        opts: { series: ["nut"], stage: ["breaker"] }
+        opts: { series: ["nut"], stage: ["crusher"] }
     },
     {
         name: "Nutcracker/Mizugi",
