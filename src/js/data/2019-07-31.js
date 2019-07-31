@@ -837,7 +837,7 @@ dataSet[dataSetVersion].characterData = [
     {
         name: "Briar Rose/Gluttonous Tiger Sorcerer",
         img: "fyDb9bi.png",
-        opts: { series: ["ibara"], stage: ["sorc"],sin:["greed"],sinCheck:true }
+        opts: { series: ["ibara"], stage: ["sorc"],sin:["glut"],sinCheck:true }
     },
 
     //       Kaguyahime
