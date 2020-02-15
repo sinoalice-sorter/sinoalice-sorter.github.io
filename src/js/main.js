@@ -194,7 +194,7 @@ function start() {
   });
 
   if (characterDataToSort.length < 2) {
-    alert('Cannot sort with less than two characters. Please reselect.');
+    alert('Cannot sort with less than two characters. Please reselect. \nキャラクタージョブには２つ以上が必要です。さらに選んでください。');
     return;
   }
 
@@ -672,7 +672,7 @@ function populateOptions() {
       groupbox.parentElement.addEventListener('click', () => {
         opt.sub.forEach((subopt, subindex) => {
           document.getElementById(`cb-${opt.key}-${subindex}`).disabled = !groupbox.checked;
-          if (groupbox.checked) { document.getElementById(`cb-${opt.key}-${subindex}`).checked = true; }
+          if (groupbox.checked) { document.getElementById(`cb-${opt.key}-${subindex}`).checked = false; }
         });
       });
     } else {
